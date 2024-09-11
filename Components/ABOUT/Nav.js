@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { FiMenu, FiX } from "react-icons/fi";
 
 
-export default function nav(){
+export default function Nav(){
     
         
         const [isOpen, setIsOpen] = useState(false);

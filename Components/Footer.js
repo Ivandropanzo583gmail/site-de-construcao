@@ -1,3 +1,5 @@
+import Link from "next/dist/client/link";
+
 const Footer = () => {
     return (
       <footer className="bg-[#0E1639] text-white py-10 mt-20">
@@ -22,9 +24,23 @@ const Footer = () => {
           <div className="text-center mb-6 md:mb-0">
             <nav className="mb-4">
               <ul className="space-y-2">
-                <li><a href="/about" className="hover:text-gray-400">About</a></li>
-                <li><a href="#services" className="hover:text-gray-400">Services</a></li>
-                <li><a href="#contact" className="hover:text-gray-400">Contact</a></li>
+                <li>
+                  <Link  href="/about">
+                      <a className="hover:text-gray-400">About</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="#services">
+                      <a  className="hover:text-gray-400">Services</a>
+                  </Link>
+                  
+                </li>
+                <li>
+                  <Link href="#contact">
+                      <a  className="hover:text-gray-400">Contact</a>
+                  </Link>
+                  
+                </li>
               </ul>
             </nav>
             <button className="bg-red-600 hover:bg-red-700 text-white py-2 px-4 rounded">
