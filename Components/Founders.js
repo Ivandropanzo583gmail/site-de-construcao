@@ -8,8 +8,8 @@ export default function Founder(){
                 <div className="flex justify-center items-center pt-10">
                     <h1 className="text-white text-3xl text-center max-sm:mb-20 ">Founders</h1>
                 </div>
-                <div className="md:flex block justify-center items-center mt-5">
-                    <div className="flex flex-col items-center bg-gray-50 p-8 rounded-lg shadow-lg  w-72 max-md:ml-44 max-sm:ml-20">
+                <div className="md:flex block justify-center items-center mt-5 ">
+                    <div className="flex flex-col items-center bg-gray-50 p-8 rounded-lg shadow-lg  w-72 md:ml-20 max-md:mt-20 max-md:ml-10 ">
                        <div className="pt-0">
                             <img src="./Founders/img.png" alt="Imagem" className="w-28  "/>
                        </div>
@@ -49,7 +49,7 @@ export default function Founder(){
                     
 
 
-                    <div className="flex flex-col items-center bg-gray-50 p-8 rounded-lg shadow-lg  w-72  ml-20 max-md:mt-20 max-md:ml-44 max-sm:ml-20">
+                    <div className="flex flex-col items-center bg-gray-50 p-8 rounded-lg shadow-lg  w-72 md:ml-20 max-md:mt-20 max-md:ml-10">
                        <div className="pt-0">
                             <img src="./Founders/img_.png" alt="Imagem" className="w-28  "/>
                        </div>

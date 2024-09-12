@@ -18,7 +18,7 @@ export default function Company(){
 
             <div className="md:flex block justify-center items-center">
                 <div className="max-w-4xl mx-auto py-8 px-4">
-                    <h2 className="text-red-500 font-bold text-xl mb-4">COMPANY CULTURE</h2>
+                    <h2 className="text-red-500 font-bold text-xl mb-4 ">COMPANY CULTURE</h2>
                     <ul className="space-y-6">
                         {[
                         "Foster a professional and ethical work environment.",

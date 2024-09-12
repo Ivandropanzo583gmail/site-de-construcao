@@ -10,7 +10,7 @@ export default function Casa(){
                </div>
             <div className=" flex justify-center items-center">
                 <Link href="/">
-                    <button className="bg-red-600 text-white px-6 py-2 absolute bottom-40 hover:bg-red-500">Discover</button>
+                    <button className="bg-red-600 text-white px-6 py-2 absolute bottom-20 hover:bg-red-500 ">Discover</button>
                 </Link>
             </div>
             </div>
