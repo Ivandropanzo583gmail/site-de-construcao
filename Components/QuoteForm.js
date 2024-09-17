@@ -4,7 +4,7 @@ import { useState } from 'react';
 
 export default function QuoteForm() {
 
-    const [open, setOpen] = useState(''); // Estado para controlar qual aba está aberta
+    const [open, setOpen] = useState(''); 
 
     const toggleOpen = (section) => {
       setOpen(open === section ? '' : section);
